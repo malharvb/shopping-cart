@@ -1,0 +1,53 @@
+.items-display
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    width: 70%;
+    margin: 75px auto;
+    gap: 50px;
+}
+
+.item
+{
+    width: 12vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px
+}
+
+.item-title
+{
+    font-size: 1.25rem;
+}
+
+.item:hover
+{
+    border: 2px solid black;
+    transform: scale(1.05);
+}
+
+img
+{
+    height: 20vh;
+    width: 10vw;
+}
+
+.sub-wrapper
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.add-to-cart
+{
+    padding: 8px;
+    background-color: #495057;
+    color: white;
+    border: none;
+}

@@ -1,0 +1,23 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+    padding: 1em 0;
+    background-color: #495057;
+    color: white;
+    height: 12.5vh;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 2em;
+}
+
+li
+{
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,17 @@
+.home-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 87.5vh;
+    background-image: url('../bg.webp');
+    background-size: cover;
+}
+
+
+.page-txt {
+    background-color: #495057;
+    color: white;   
+    padding: 60px 120px;
+    font-size: 2rem;
+    text-align: center;
+}

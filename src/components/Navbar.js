@@ -7,10 +7,10 @@ import StyledLink from '../util/StyledLink';
 function NavBar({ isItemAdded, totalQuantity }) {
   return (
     <nav>
-      <StyledLink to="/"><h1 className="title">NoStore</h1></StyledLink>
+      <StyledLink to="/shopping-cart"><h1 className="title">NoStore</h1></StyledLink>
       <ul className="nav-list">
-        <StyledLink to="/shop"><li>Shop</li></StyledLink>
-        <StyledLink to="/cart">
+        <StyledLink to="/shopping-cart/shop"><li>Shop</li></StyledLink>
+        <StyledLink to="/shopping-cart/cart">
           <li>
             <FontAwesomeIcon icon={faShoppingCart} />
             {isItemAdded ? <sub className="number-of-cart-items">{totalQuantity}</sub> : <sub />}

@@ -83,9 +83,9 @@ function App() {
       <Router>
         <Navbar isItemAdded={isItemAdded} totalQuantity={totalQuantity} />
         <Routes>
-          <Route path="/" element={<HomePage />} />
+          <Route path="/shopping-cart" element={<HomePage />} />
           <Route
-            path="/shop"
+            path="/shopping-cart/shop"
             element={
               !itemsList ? <div>Loading...</div> : (
                 <ShopPage
@@ -97,7 +97,7 @@ function App() {
             }
           />
           <Route
-            path="/shop/:id/"
+            path="/shopping-cart/shop/:id/"
             element={
               !itemsList ? <div>Loading...</div> : (
                 <ItemPage
@@ -108,7 +108,7 @@ function App() {
               )
 }
           />
-          <Route path="/cart" element={<Cart cartItems={cartItems} itemsList={itemsList} />} />
+          <Route path="/shopping-cart/cart" element={<Cart cartItems={cartItems} itemsList={itemsList} />} />
         </Routes>
       </Router>
     </div>

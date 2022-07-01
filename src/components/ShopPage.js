@@ -17,7 +17,7 @@ function ShopPage({ handleAddToCartClick, itemsList, onItemCountChange }) {
   return (
     <div className="items-display">
       {items.map((item) => (
-        <StyledLink to={`/shop/${item.id}/`} key={item.id}>
+        <StyledLink to={`/shopping-cart/shop/${item.id}/`} key={item.id}>
           <ShopPageItem
             item={item}
             handleAddToCartClick={handleAddToCartClick}

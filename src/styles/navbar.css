@@ -9,6 +9,11 @@ nav {
     height: 12.5vh;
 }
 
+.title
+{
+    color: white;
+}
+
 .nav-list {
     display: flex;
     list-style: none;
@@ -20,4 +25,13 @@ li
 {
     color: white;
     text-decoration: none;
+}
+
+.number-of-cart-items
+{
+    border-radius: 50%;
+    font-size: 15px;
+    background-color: white;
+    color: #495057;
+    padding: 7px 9px;
 }

@@ -1,0 +1,31 @@
+.item-count-cont
+{
+    display: flex;
+}
+
+.item-count
+{
+    width: 2vw;
+}
+
+.item-count,.item-count-modifier
+{
+    padding: 8px;
+    font-size: 20px;
+    background-color: #495057;
+    color: white;
+    border: none;
+    text-align: center;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
